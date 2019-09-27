@@ -1,0 +1,8 @@
+﻿  Fraction.cpp
+D:\Code\VisualStudioProjects\Drozdek_4thED_1.12.1_FractionCLass\Fraction.cpp(174,20): warning C4018:  '<': signed/unsigned mismatch
+D:\Code\VisualStudioProjects\Drozdek_4thED_1.12.1_FractionCLass\Fraction.cpp(180,20): warning C4018:  '<': signed/unsigned mismatch
+D:\Code\VisualStudioProjects\Drozdek_4thED_1.12.1_FractionCLass\Fraction.cpp(106): warning C4172:  returning address of local variable or temporary: newFrac
+D:\Code\VisualStudioProjects\Drozdek_4thED_1.12.1_FractionCLass\Fraction.cpp(117): warning C4172:  returning address of local variable or temporary: newFrac
+D:\Code\VisualStudioProjects\Drozdek_4thED_1.12.1_FractionCLass\Fraction.cpp(129): warning C4172:  returning address of local variable or temporary: newFrac
+D:\Code\VisualStudioProjects\Drozdek_4thED_1.12.1_FractionCLass\Fraction.cpp(140): warning C4172:  returning address of local variable or temporary: newFrac
+  Drozdek_4thED_1.12.1_FractionCLass.vcxproj -> D:\Code\VisualStudioProjects\Drozdek_4thED_1.12.1_FractionCLass\Debug\Drozdek_4thED_1.12.1_FractionCLass.exe
