@@ -1,0 +1,10 @@
+1. 0,1,2,3,4,5,6,7,8,9 => N
+2. if n => N, then n0,n1,n2,n3,n4,n5,n6,n7,n8,n9 => N
+3. if n => N, then 0n !=> N
+4. these are all the real numbers
+
+Rule three states that if a number exists in N, then n with 0 in front of it does not exist.
+i.e. 
+	123 => N, so 0123 !=> N
+	0 => N, so 00 !=> in N
+	1 => N, so 01,001,0001,00001 !=> in N

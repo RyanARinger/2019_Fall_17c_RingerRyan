@@ -1,0 +1,16 @@
+/*
+	This Function is implemented into the Passenger linked list
+	assignment from a assignment 2
+*/
+
+int listSize(PassengerNode* head) {
+	int count = 0;
+	PassengerNode* hold = head;
+
+	while (hold != nullptr) {
+		cout << hold->name << endl;
+		count++;
+		hold = hold->n;
+	}
+	return count;
+}

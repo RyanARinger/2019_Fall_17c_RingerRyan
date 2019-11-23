@@ -1,0 +1,30 @@
+void upward(int n) {
+	if (n > 0) {
+		upward(n - 1);
+	}
+	if (n != 0) {
+		cout << n;
+	}
+	
+}
+
+void downward(int n) {
+	if (n != 0){
+		cout << n;
+	}
+	if (n > 0) {
+		downward(n - 1);
+	}
+}
+
+void both(int n) {
+	if (n != 0) {
+		cout << n << endl;
+	}
+	if (n > 0) {
+		both(n-1);
+	}
+	if (n != 0) {
+		cout << n << endl;
+	}
+}

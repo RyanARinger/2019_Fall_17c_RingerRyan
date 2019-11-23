@@ -1,0 +1,22 @@
+The void function 'reverse' reads in a character from the terminal. If that
+character is NOT a carriage return '\n' then it calls itself and repeats the 
+process until it reads a carriage return. After each function outputs the
+character that it read from the terminal. Because this uses the activation
+records for functions, this operates like a stack, printing in reverse order
+
+void reverse() {
+	int ch;
+
+	ch = cin.get();
+
+	if (ch != '\n') {
+		reverse();
+	}
+
+	cout.put(ch);
+}
+
+Sample:				Output:
+Ryan				nayR
+string				gnirts
+Test				tseT

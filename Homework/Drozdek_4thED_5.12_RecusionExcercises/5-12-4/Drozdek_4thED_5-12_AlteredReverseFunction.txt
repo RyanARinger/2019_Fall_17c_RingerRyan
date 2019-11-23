@@ -1,0 +1,17 @@
+The altered void function 'reverse()' with 'int ch' being declared static 
+changes the output by only allowing the most recent call of reverse() is 
+allowed to alter ch and will be the last alteration that will be remembered. 
+That is to say that the only character that will be output will be the '\n' 
+carriage return n times.
+
+void reverse() {
+	static int ch;
+
+	ch = cin.get();
+	if (ch != '\n') {
+		
+		reverse();
+	}
+
+	cout.put(ch);
+}

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Drozdek_4thED_5.12_RecursiveReverse", "Drozdek_4thED_5.12_RecursiveReverse.vcxproj", "{AED5B444-A934-4D57-BBD1-08FA058883F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AED5B444-A934-4D57-BBD1-08FA058883F2}.Debug|x64.ActiveCfg = Debug|x64
+		{AED5B444-A934-4D57-BBD1-08FA058883F2}.Debug|x64.Build.0 = Debug|x64
+		{AED5B444-A934-4D57-BBD1-08FA058883F2}.Debug|x86.ActiveCfg = Debug|Win32
+		{AED5B444-A934-4D57-BBD1-08FA058883F2}.Debug|x86.Build.0 = Debug|Win32
+		{AED5B444-A934-4D57-BBD1-08FA058883F2}.Release|x64.ActiveCfg = Release|x64
+		{AED5B444-A934-4D57-BBD1-08FA058883F2}.Release|x64.Build.0 = Release|x64
+		{AED5B444-A934-4D57-BBD1-08FA058883F2}.Release|x86.ActiveCfg = Release|Win32
+		{AED5B444-A934-4D57-BBD1-08FA058883F2}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E404210-000E-4771-9CCA-786D322AC15C}
+	EndGlobalSection
+EndGlobal
